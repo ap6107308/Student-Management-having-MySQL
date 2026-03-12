@@ -1,9 +1,3 @@
-#           A project by
-#        AAKASH DEEP KUMAR
-#         of class 12th on
-#topic of student managment using mysql 
-
-
 import mysql.connector
 mydb = mysql.connector.connect(host ="localhost",user ="root",passwd ="lata")
 mycur = mydb.cursor()
@@ -96,3 +90,4 @@ menu_fn ()
 while_fn
     
     
+
